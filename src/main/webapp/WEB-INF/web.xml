@@ -3,13 +3,13 @@
     <display-name>Simple web application</display-name>
 
     <servlet>
-        <servlet-name>helloServlet</servlet-name>
-        <servlet-class>ru.kpfu.itis.HelloServlet</servlet-class>
+        <servlet-name>greetingsServlet</servlet-name>
+        <servlet-class>ru.kpfu.itis.GreetingsServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>helloServlet</servlet-name>
-        <url-pattern>/hello</url-pattern>
+        <servlet-name>greetingsServlet</servlet-name>
+        <url-pattern>/home</url-pattern>
     </servlet-mapping>
 
 
